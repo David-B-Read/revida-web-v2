@@ -12,13 +12,13 @@ function App() {
     };
 
     var viewName = 'About';
-    if (window.location.pathname == '/development') {
+    if (window.location.pathname === '/development') {
         viewName = 'Development';
     }
-    else if (window.location.pathname == '/consulting') {
+    else if (window.location.pathname === '/consulting') {
         viewName = 'Consulting';
     }
-    else if (window.location.pathname == '/coaching') {
+    else if (window.location.pathname === '/coaching') {
         viewName = 'Coaching';
     }
     var component = components[viewName];

@@ -1,5 +1,3 @@
-import Logo from '../Logo/component';
-import Navigation from '../Navigation/component'
 import Footer from '../Footer/component'
 
 function Development() {
